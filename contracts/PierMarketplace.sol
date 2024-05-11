@@ -8,7 +8,7 @@ import "@openzeppelin/contracts/utils/ReentrancyGuard.sol"; // Modifier to preve
 import "@openzeppelin/contracts/token/ERC20/utils/SafeERC20.sol"; // Library for safe ERC20 interactions.
 
 // Declaration of the PierMarketplace contract, inheriting from Ownable and ReentrancyGuard.
-contract PierMarketplace is Ownable, ReentrancyGuard {
+contract PierMarketplace is Ownable, ReentrancyGuard { 
     // Utilizing SafeERC20 for safe ERC20 token interactions.
     using SafeERC20 for IERC20;
 

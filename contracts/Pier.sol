@@ -9,7 +9,7 @@ import "@openzeppelin/contracts/utils/Context.sol";
 import "@openzeppelin/contracts/interfaces/draft-IERC6093.sol";
 
 import "./interfaces/IUniswapV2Router02.sol";
-import "./interfaces/IUniswapV2Factory.sol";
+import "./interfaces/IUniswapV2Factory.sol"; 
 
 /**
  * @dev Implementation of the {IERC20} interface.

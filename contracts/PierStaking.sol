@@ -8,7 +8,7 @@ import "@openzeppelin/contracts/token/ERC20/utils/SafeERC20.sol";
 import "./interfaces/IPierStaking.sol";
 
 contract PierStaking is Ownable, IPierStaking {
-    using SafeERC20 for IERC20;
+    using SafeERC20 for IERC20; 
     
     mapping(address => UserInfo) public userInfo;
     mapping(address => uint256) public rewardDebt;

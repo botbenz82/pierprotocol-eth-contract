@@ -5,7 +5,7 @@ pragma solidity ^0.8.20;
 interface IPierStaking {
     struct UserInfo {
         uint256 stakedAmount;
-        uint256 rewardDebt;
+        uint256 rewardDebt; 
         uint256 claimedAmount;
         uint256 claimableRewards;
         uint256 lastUnstakeTime;

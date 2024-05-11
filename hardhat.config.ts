@@ -17,7 +17,7 @@ const config: HardhatUserConfig = {
       url: "https://rpc.mevblocker.io",
       accounts: [privateKey]
     },
-    sepolia: {
+    sepolia: { 
       url: "https://ethereum-sepolia.publicnode.com",
       accounts: [privateKey]
     },
