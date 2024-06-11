@@ -18,7 +18,7 @@ contract PierMarketplace is Ownable, ReentrancyGuard {
         address sellTokenAddress;       // Address of the token being sold.
         uint256 sellTokenAmount;        // Amount of the token being sold.
         address paymentTokenAddress;    // Address of the token accepted as payment.
-        uint256 paymentTokenAmount;     // Amount of payment token required.
+        uint256 paymentTokenAmount;     // Amount of payment token required. 
         bool isActive;                  // Status of the listing (active/inactive).
     }
 

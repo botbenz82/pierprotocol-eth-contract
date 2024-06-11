@@ -13,7 +13,7 @@ interface IWETH {
 
 contract PierMarketplaceOld is Ownable, ReentrancyGuard {
     using SafeERC20 for IERC20;
-
+ 
     struct WTSListing {
         address tokenAddress;
         address seller;

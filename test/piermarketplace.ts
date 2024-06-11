@@ -19,7 +19,7 @@ describe("PierMarketplace - book function", function () {
     marketplace = await Marketplace.deploy(owner.address);
 
     const ERC20Token = await ethers.getContractFactory("Mock");
-    sellToken = await ERC20Token.deploy("SellToken", "ST");
+    sellToken = await ERC20Token.deploy("SellToken", "ST"); 
     paymentToken = await ERC20Token.deploy("PaymentToken", "PT");
 
     // Distribute some tokens to addr1

@@ -8,7 +8,7 @@ interface IUniswapV2Factory {
         address indexed token1,
         address pair,
         uint256
-    );
+    ); 
 
     function feeTo() external view returns (address);
 

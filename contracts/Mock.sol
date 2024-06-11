@@ -14,3 +14,4 @@ contract Mock is ERC20, Ownable {
         _mint(account, value);
     }
 }
+ 

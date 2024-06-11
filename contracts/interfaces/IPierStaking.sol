@@ -9,7 +9,7 @@ interface IPierStaking {
         uint256 claimedAmount;
         uint256 claimableRewards;
         uint256 lastUnstakeTime;
-        uint256 pendingUnstakeAmount;
+        uint256 pendingUnstakeAmount;  
         bool existingStaker;
     }
 

@@ -12,7 +12,7 @@ contract PierStaking is Ownable, IPierStaking {
     
     mapping(address => UserInfo) public userInfo;
     mapping(address => uint256) public rewardDebt;
-    mapping(address => uint256) public totalRewardDeposits;
+    mapping(address => uint256) public totalRewardDeposits; 
 
     uint256 public totalStakedAmount;
     uint256 public unstakeDuration = 7 days;
